@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:theme="@style/FAQTheme" android:background="@color/faq_page_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="@dimen/dp_56" app:layout_constraintBottom_toTopOf="@id/scrollView" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_back" android:background="?actionBarItemBackground" android:padding="@dimen/dp_16" android:layout_width="@dimen/dp_56" android:layout_height="@dimen/dp_56" android:tint="@color/faq_svg_toolbar" app:srcCompat="@drawable/toolbar_svg_return" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp_18" android:textColor="@color/faq_text_first" android:gravity="center_vertical" android:paddingLeft="@dimen/dp_8" android:paddingRight="@dimen/dp_8" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/faq" style="@style/FontBlack" />
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/layout_ad_banner_faq" app:layout_constraintTop_toBottomOf="@id/toolbar">
+        <androidx.constraintlayout.widget.ConstraintLayout android:paddingBottom="@dimen/dp_60" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/view_feedback" android:background="@drawable/bg_ripple_corner_12" android:layout_width="0.0dip" android:layout_height="@dimen/dp_52" android:layout_marginLeft="@dimen/dp_20" android:layout_marginTop="@dimen/dp_16" android:layout_marginRight="@dimen/dp_20" android:backgroundTint="@color/themeColor" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/faq_svg_feedback" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp_16" android:textColor="@color/faq_text_first" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/still_have_problems_1" android:layout_marginStart="@dimen/dp_8" style="@style/FontBlack" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:background="@drawable/faq_item_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/dp_16" app:layout_constraintTop_toBottomOf="@id/view_feedback" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@id/layout_ad_banner_faq" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/scrollView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

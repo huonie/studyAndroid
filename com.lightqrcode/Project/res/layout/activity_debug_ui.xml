@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:flexWrap="wrap"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/ll_toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_back" android:background="?actionBarItemBackground" android:layout_width="?actionBarSize" android:layout_height="?actionBarSize" android:scaleType="center" android:onClick="finishDebugUIActivity" app:srcCompat="@drawable/ic_arrow_back_black" />
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff031c36" android:gravity="center_vertical" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Debug" />
+    </LinearLayout>
+    <Button android:id="@id/btu_debug_dialog_low_storage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="存储空间不足弹窗" android:onClick="debugUIClick" />
+    <Button android:id="@id/btu_debug_dialog_camera_scan_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="相机扫描引导弹窗" android:onClick="debugUIClick" />
+    <Button android:id="@id/btu_debug_dialog_gallery_scan_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="相册扫描引导弹窗" android:onClick="debugUIClick" />
+    <Button android:id="@id/btu_debug_dialog_camera_refuse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="相机权限拒绝弹窗" android:onClick="debugUIClick" />
+    <Button android:id="@id/btu_debug_dialog_camera_deny" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="相机权限禁止弹窗" android:onClick="debugUIClick" />
+    <Button android:id="@id/btu_debug_dialog_gallery_camera_refuse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="相册权限拒绝弹窗" android:onClick="debugUIClick" />
+    <Button android:id="@id/btu_debug_dialog_gallery_camera_deny" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="相册权限禁止弹窗" android:onClick="debugUIClick" />
+    <Button android:id="@id/btu_debug_dialog_scan_input" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="输入结果弹窗" android:onClick="debugUIClick" />
+    <Button android:id="@id/btu_debug_dialog_scan_input_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="输入结果引导弹窗" android:onClick="debugUIClick" />
+    <Button android:id="@id/btu_debug_dialog_thanks_feedback" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="感谢Feedback弹窗" android:onClick="debugUIClick" />
+    <Button android:id="@id/btu_dialog_debug_ask" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="主动询问弹窗" android:onClick="debugUIClick" />
+    <Button android:id="@id/btu_dialog_scan_failure" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="扫描失败弹窗" android:onClick="debugUIClick" />
+    <Button android:id="@id/btu_dialog_delete_history_confirm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="历史记录删除确认弹窗" android:onClick="debugUIClick" />
+</com.google.android.flexbox.FlexboxLayout>

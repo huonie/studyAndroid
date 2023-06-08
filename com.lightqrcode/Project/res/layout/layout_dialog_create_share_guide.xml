@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="@drawable/bg_dialog_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/dp_24" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_30" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_percent="0.9">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="@dimen/dp_30" android:layout_height="@dimen/dp_30" android:src="@drawable/view_ic_share" />
+            <TextView android:textSize="@dimen/sp_24" android:textColor="@color/dialog_text_first" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/use_share" android:layout_marginStart="@dimen/dp_10" style="@style/FontBlack" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/sp_16" android:textColor="@color/dialog_text_first" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_30" android:text="@string/click_share_option" android:includeFontPadding="false" style="@style/FontBold" />
+        <TextView android:textSize="@dimen/sp_16" android:textColor="@color/dialog_text_first" android:id="@id/tv_step_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_30" android:text="@string/then_select_generate" android:includeFontPadding="false" style="@style/FontBold" />
+        <TextView android:textSize="@dimen/sp_16" android:textColor="@color/dialog_text_first" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_positive" android:background="@drawable/bg_ripple_corner_12" android:layout_width="fill_parent" android:layout_height="@dimen/dp_50" android:layout_marginTop="@dimen/dp_40" android:text="@string/action_ok" android:backgroundTint="@color/themeColor" style="@style/FontBlack" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

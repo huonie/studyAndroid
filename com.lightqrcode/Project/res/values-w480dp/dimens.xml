@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ad_native_banner_height">90.0dip</dimen>
+    <dimen name="ad_native_banner_icon_size">80.0dip</dimen>
+</resources>

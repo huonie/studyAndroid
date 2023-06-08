@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackgroundBorderless"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_horizontal" android:id="@id/iv_icon" android:background="@drawable/bg_creat_item" android:padding="18.0dip" android:layout_width="64.0dip" android:layout_height="64.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/vector_ic_twitter" />
+    <TextView android:textSize="14.0sp" android:textColor="#ff0b1430" android:gravity="center" android:id="@id/tv_title" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Clipboard" android:fontFamily="@string/roboto_medium" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/iv_icon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

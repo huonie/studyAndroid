@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/ad_native_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/ad_cover_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/ad_cover_imageview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/ad_cover_mediaview" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/ad_choices_linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:layout_below="@id/ad_cover_layout" android:layout_alignRight="@id/ad_cover_layout">
+            <ImageView android:id="@id/ad_choices_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ad_des_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="20.0dip" android:layout_below="@id/ad_choices_linearLayout">
+            <RelativeLayout android:id="@id/ad_icon_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/ad_icon_imageview" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/ad_icon_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="16.0sp" android:textColor="@color/ad_native_card_title_color" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/ad_title_textview" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="title" android:maxLines="1" android:layout_weight="1.0" android:fontFamily="@string/roboto_regular" />
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:src="@drawable/ad_mark" />
+                </LinearLayout>
+                <TextView android:textSize="12.0sp" android:textColor="@color/ad_native_card_des_color" android:ellipsize="end" android:id="@id/ad_describe_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="body" android:maxLines="2" android:fontFamily="@string/roboto_regular" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ad_button_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ad_des_layout">
+            <Button android:textSize="17.0sp" android:textColor="@color/ad_native_card_button_text_color" android:gravity="center" android:id="@id/ad_action_button" android:background="@drawable/ad_native_card_btn_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:minHeight="41.0dip" android:textAllCaps="true" android:fontFamily="@string/roboto_medium" />
+            <View android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_below="@id/ad_action_button" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

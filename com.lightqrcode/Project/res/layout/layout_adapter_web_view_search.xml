@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/WebViewTheme" android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/lib_result_web_view_bg_search_item" android:paddingLeft="@dimen/dp_8" android:paddingRight="@dimen/dp_8" android:layout_width="wrap_content" android:layout_height="@dimen/dp_34"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/image_view" android:layout_width="@dimen/dp_24" android:layout_height="@dimen/dp_24" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp_12" android:textColor="@color/web_view_search_text" android:gravity="center" android:id="@id/text_view" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/FontBold" />
+</LinearLayout>

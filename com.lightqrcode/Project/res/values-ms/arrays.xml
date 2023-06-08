@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="country_names">
+        <item>Pulau Ascension</item>
+        <item>Andorra</item>
+        <item>Emiriah Arab Bersatu</item>
+        <item>Afghanistan</item>
+        <item>Antigua dan Barbuda</item>
+        <item>Anguilla</item>
+        <item>Albania</item>
+        <item>Armenia</item>
+        <item>Angola</item>
+        <item>Argentina</item>
+        <item>Samoa Amerika</item>
+        <item>Austria</item>
+        <item>Australia</item>
+        <item>Aruba</item>
+        <item>Kepulauan Aland</item>
+        <item>Azerbaijan</item>
+        <item>Bosnia dan Herzegovina</item>
+        <item>Barbados</item>
+        <item>Bangladesh</item>
+        <item>Belgium</item>
+        <item>Burkina Faso</item>
+        <item>Bulgaria</item>
+        <item>Bahrain</item>
+        <item>Burundi</item>
+        <item>Benin</item>
+        <item>St. Barthelemy</item>
+        <item>Bermuda</item>
+        <item>Brunei</item>
+        <item>Bolivia</item>
+        <item>Belanda Caribbean</item>
+        <item>Brazil</item>
+        <item>Bahamas</item>
+        <item>Bhutan</item>
+        <item>Botswana</item>
+        <item>Belarus</item>
+        <item>Belize</item>
+        <item>Kanada</item>
+        <item>Kepulauan Cocos (Keeling)</item>
+        <item>Congo - Kinshasa</item>
+        <item>Republik Afrika Tengah</item>
+        <item>Congo - Brazzaville</item>
+        <item>Switzerland</item>
+        <item>Cote d’Ivoire</item>
+        <item>Kepulauan Cook</item>
+        <item>Chile</item>
+        <item>Cameroon</item>
+        <item>China</item>
+        <item>Colombia</item>
+        <item>Costa Rica</item>
+        <item>Cuba</item>
+        <item>Cape Verde</item>
+        <item>Curacao</item>
+        <item>Pulau Krismas</item>
+        <item>Cyprus</item>
+        <item>Czechia</item>
+        <item>Jerman</item>
+        <item>Djibouti</item>
+        <item>Denmark</item>
+        <item>Dominica</item>
+        <item>Republik Dominica</item>
+        <item>Algeria</item>
+        <item>Ecuador</item>
+        <item>Estonia</item>
+        <item>Mesir</item>
+        <item>Eritrea</item>
+        <item>Sepanyol</item>
+        <item>Ethiopia</item>
+        <item>Finland</item>
+        <item>Fiji</item>
+        <item>Kepulauan Falkland</item>
+        <item>Micronesia</item>
+        <item>Kepulauan Faroe</item>
+        <item>Perancis</item>
+        <item>Gabon</item>
+        <item>United Kingdom</item>
+        <item>Grenada</item>
+        <item>Georgia</item>
+        <item>Guiana Perancis</item>
+        <item>Guernsey</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Greenland</item>
+        <item>Gambia</item>
+        <item>Guinea</item>
+        <item>Guadeloupe</item>
+        <item>Guinea Khatulistiwa</item>
+        <item>Greece</item>
+        <item>Guatemala</item>
+        <item>Guam</item>
+        <item>Guinea Bissau</item>
+        <item>Guyana</item>
+        <item>Hong Kong SAR China</item>
+        <item>Honduras</item>
+        <item>Croatia</item>
+        <item>Haiti</item>
+        <item>Hungary</item>
+        <item>Indonesia</item>
+        <item>Ireland</item>
+        <item>Israel</item>
+        <item>Isle of Man</item>
+        <item>India</item>
+        <item>Wilayah Lautan Hindi British</item>
+        <item>Iraq</item>
+        <item>Iran</item>
+        <item>Iceland</item>
+        <item>Itali</item>
+        <item>Jersey</item>
+        <item>Jamaica</item>
+        <item>Jordan</item>
+        <item>Jepun</item>
+        <item>Kenya</item>
+        <item>Kyrgyzstan</item>
+        <item>Kemboja</item>
+        <item>Kiribati</item>
+        <item>Comoros</item>
+        <item>Saint Kitts dan Nevis</item>
+        <item>Korea Utara</item>
+        <item>Korea Selatan</item>
+        <item>Kuwait</item>
+        <item>Kepulauan Cayman</item>
+        <item>Kazakhstan</item>
+        <item>Laos</item>
+        <item>Lubnan</item>
+        <item>Saint Lucia</item>
+        <item>Liechtenstein</item>
+        <item>Sri Lanka</item>
+        <item>Liberia</item>
+        <item>Lesotho</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Latvia</item>
+        <item>Libya</item>
+        <item>Maghribi</item>
+        <item>Monaco</item>
+        <item>Moldova</item>
+        <item>Montenegro</item>
+        <item>Saint Martin</item>
+        <item>Madagaskar</item>
+        <item>Kepulauan Marshall</item>
+        <item>Macedonia Utara</item>
+        <item>Mali</item>
+        <item>Myanmar (Burma)</item>
+        <item>Mongolia</item>
+        <item>Macau SAR China</item>
+        <item>Kepulauan Mariana Utara</item>
+        <item>Martinique</item>
+        <item>Mauritania</item>
+        <item>Montserrat</item>
+        <item>Malta</item>
+        <item>Mauritius</item>
+        <item>Maldives</item>
+        <item>Malawi</item>
+        <item>Mexico</item>
+        <item>Malaysia</item>
+        <item>Mozambique</item>
+        <item>Namibia</item>
+        <item>New Caledonia</item>
+        <item>Niger</item>
+        <item>Pulau Norfolk</item>
+        <item>Nigeria</item>
+        <item>Nicaragua</item>
+        <item>Belanda</item>
+        <item>Norway</item>
+        <item>Nepal</item>
+        <item>Nauru</item>
+        <item>Niue</item>
+        <item>New Zealand</item>
+        <item>Oman</item>
+        <item>Panama</item>
+        <item>Peru</item>
+        <item>Polinesia Perancis</item>
+        <item>Papua New Guinea</item>
+        <item>Filipina</item>
+        <item>Pakistan</item>
+        <item>Poland</item>
+        <item>Saint Pierre dan Miquelon</item>
+        <item>Puerto Rico</item>
+        <item>Wilayah Palestin</item>
+        <item>Portugal</item>
+        <item>Palau</item>
+        <item>Paraguay</item>
+        <item>Qatar</item>
+        <item>Reunion</item>
+        <item>Romania</item>
+        <item>Serbia</item>
+        <item>Rusia</item>
+        <item>Rwanda</item>
+        <item>Arab Saudi</item>
+        <item>Kepulauan Solomon</item>
+        <item>Seychelles</item>
+        <item>Sudan</item>
+        <item>Sweden</item>
+        <item>Singapura</item>
+        <item>Saint Helena</item>
+        <item>Slovenia</item>
+        <item>Svalbard dan Jan Mayen</item>
+        <item>Slovakia</item>
+        <item>Sierra Leone</item>
+        <item>San Marino</item>
+        <item>Senegal</item>
+        <item>Somalia</item>
+        <item>Surinam</item>
+        <item>Sudan Selatan</item>
+        <item>Sao Tome dan Principe</item>
+        <item>El Salvador</item>
+        <item>Sint Maarten</item>
+        <item>Syria</item>
+        <item>Swaziland</item>
+        <item>Kepulauan Turks dan Caicos</item>
+        <item>Chad</item>
+        <item>Togo</item>
+        <item>Thailand</item>
+        <item>Tajikistan</item>
+        <item>Tokelau</item>
+        <item>Timor-Leste</item>
+        <item>Turkmenistan</item>
+        <item>Tunisia</item>
+        <item>Tonga</item>
+        <item>Turki</item>
+        <item>Trinidad dan Tobago</item>
+        <item>Tuvalu</item>
+        <item>Taiwan</item>
+        <item>Tanzania</item>
+        <item>Ukraine</item>
+        <item>Uganda</item>
+        <item>Amerika Syarikat</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Kota Vatican</item>
+        <item>Saint Vincent dan Grenadines</item>
+        <item>Venezuela</item>
+        <item>Kepulauan Virgin British</item>
+        <item>Kepulauan Virgin A.S.</item>
+        <item>Vietnam</item>
+        <item>Vanuatu</item>
+        <item>Wallis dan Futuna</item>
+        <item>Samoa</item>
+        <item>Kosovo</item>
+        <item>Yaman</item>
+        <item>Mayotte</item>
+        <item>Afrika Selatan</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+</resources>

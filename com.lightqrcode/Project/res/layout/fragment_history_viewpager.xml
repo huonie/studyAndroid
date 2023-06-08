@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rcv_history" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_no_history" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pic_ic_no_history" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.45" />
+    <TextView android:textSize="@dimen/sp_16" android:textColor="#ff9e9ea1" android:id="@id/tv_no_history" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:text="@string/no_history" android:fontFamily="@string/roboto_regular" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/iv_no_history" />
+    <androidx.constraintlayout.widget.Group android:id="@id/group_no_history" android:layout_width="wrap_content" android:layout_height="wrap_content" app:constraint_referenced_ids="iv_no_history, tv_no_history" />
+</androidx.constraintlayout.widget.ConstraintLayout>

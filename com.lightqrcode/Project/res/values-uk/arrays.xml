@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="country_names">
+        <item>Острів Вознесіння</item>
+        <item>Андорра</item>
+        <item>Обʼєднані Арабські Емірати</item>
+        <item>Афганістан</item>
+        <item>Антиґуа і Барбуда</item>
+        <item>Анґілья</item>
+        <item>Албанія</item>
+        <item>Вірменія</item>
+        <item>Ангола</item>
+        <item>Аргентина</item>
+        <item>Американське Самоа</item>
+        <item>Австрія</item>
+        <item>Австралія</item>
+        <item>Аруба</item>
+        <item>Аландські Острови</item>
+        <item>Азербайджан</item>
+        <item>Боснія і Герцеґовина</item>
+        <item>Барбадос</item>
+        <item>Бангладеш</item>
+        <item>Бельґія</item>
+        <item>Буркіна-Фасо</item>
+        <item>Болгарія</item>
+        <item>Бахрейн</item>
+        <item>Бурунді</item>
+        <item>Бенін</item>
+        <item>Сен-Бартельмі</item>
+        <item>Бермудські Острови</item>
+        <item>Бруней</item>
+        <item>Болівія</item>
+        <item>Нідерландські Карибські острови</item>
+        <item>Бразілія</item>
+        <item>Багамські Острови</item>
+        <item>Бутан</item>
+        <item>Ботсвана</item>
+        <item>Білорусь</item>
+        <item>Беліз</item>
+        <item>Канада</item>
+        <item>Кокосові (Кілінґ) Острови</item>
+        <item>Конго – Кіншаса</item>
+        <item>Центральноафриканська Республіка</item>
+        <item>Конго – Браззавіль</item>
+        <item>Швейцарія</item>
+        <item>Кот-дʼІвуар</item>
+        <item>Острови Кука</item>
+        <item>Чілі</item>
+        <item>Камерун</item>
+        <item>Китай</item>
+        <item>Колумбія</item>
+        <item>Коста-Ріка</item>
+        <item>Куба</item>
+        <item>Кабо-Верде</item>
+        <item>Кюрасао</item>
+        <item>Острів Різдва</item>
+        <item>Кіпр</item>
+        <item>Чехія</item>
+        <item>Німеччина</item>
+        <item>Джибуті</item>
+        <item>Данія</item>
+        <item>Домініка</item>
+        <item>Домініканська Республіка</item>
+        <item>Алжир</item>
+        <item>Еквадор</item>
+        <item>Естонія</item>
+        <item>Єгипет</item>
+        <item>Еритрея</item>
+        <item>Іспанія</item>
+        <item>Ефіопія</item>
+        <item>Фінляндія</item>
+        <item>Фіджі</item>
+        <item>Фолклендські Острови</item>
+        <item>Мікронезія</item>
+        <item>Фарерські Острови</item>
+        <item>Франція</item>
+        <item>Габон</item>
+        <item>Велика Британія</item>
+        <item>Ґренада</item>
+        <item>Грузія</item>
+        <item>Французька Ґвіана</item>
+        <item>Ґернсі</item>
+        <item>Гана</item>
+        <item>Ґібралтар</item>
+        <item>Ґренландія</item>
+        <item>Гамбія</item>
+        <item>Гвінея</item>
+        <item>Ґваделупа</item>
+        <item>Екваторіальна Гвінея</item>
+        <item>Греція</item>
+        <item>Ґватемала</item>
+        <item>Ґуам</item>
+        <item>Гвінея-Бісау</item>
+        <item>Ґайана</item>
+        <item>Гонконг, О.А.Р. Китаю</item>
+        <item>Гондурас</item>
+        <item>Хорватія</item>
+        <item>Гаїті</item>
+        <item>Угорщина</item>
+        <item>Індонезія</item>
+        <item>Ірландія</item>
+        <item>Ізраїль</item>
+        <item>Острів Мен</item>
+        <item>Індія</item>
+        <item>Британська територія в Індійському Океані</item>
+        <item>Ірак</item>
+        <item>Іран</item>
+        <item>Ісландія</item>
+        <item>Італія</item>
+        <item>Джерсі</item>
+        <item>Ямайка</item>
+        <item>Йорданія</item>
+        <item>Японія</item>
+        <item>Кенія</item>
+        <item>Киргизстан</item>
+        <item>Камбоджа</item>
+        <item>Кірібаті</item>
+        <item>Комори</item>
+        <item>Сент-Кітс і Невіс</item>
+        <item>Північна Корея</item>
+        <item>Південна Корея</item>
+        <item>Кувейт</item>
+        <item>Кайманові Острови</item>
+        <item>Казахстан</item>
+        <item>Лаос</item>
+        <item>Ліван</item>
+        <item>Сент-Люсія</item>
+        <item>Ліхтенштейн</item>
+        <item>Шрі-Ланка</item>
+        <item>Ліберія</item>
+        <item>Лесото</item>
+        <item>Литва</item>
+        <item>Люксембурґ</item>
+        <item>Латвія</item>
+        <item>Лівія</item>
+        <item>Марокко</item>
+        <item>Монако</item>
+        <item>Молдова</item>
+        <item>Чорногорія</item>
+        <item>Сен-Мартен</item>
+        <item>Мадагаскар</item>
+        <item>Маршаллові Острови</item>
+        <item>Північна Македонія</item>
+        <item>Малі</item>
+        <item>Мʼянма (Бірма)</item>
+        <item>Монголія</item>
+        <item>Макао, О.А.Р Китаю</item>
+        <item>Північні Маріанські Острови</item>
+        <item>Мартініка</item>
+        <item>Мавританія</item>
+        <item>Монтсеррат</item>
+        <item>Мальта</item>
+        <item>Маврікій</item>
+        <item>Мальдіви</item>
+        <item>Малаві</item>
+        <item>Мексика</item>
+        <item>Малайзія</item>
+        <item>Мозамбік</item>
+        <item>Намібія</item>
+        <item>Нова Каледонія</item>
+        <item>Нігер</item>
+        <item>Острів Норфолк</item>
+        <item>Нігерія</item>
+        <item>Нікараґуа</item>
+        <item>Нідерланди</item>
+        <item>Норвеґія</item>
+        <item>Непал</item>
+        <item>Науру</item>
+        <item>Ніуе</item>
+        <item>Нова Зеландія</item>
+        <item>Оман</item>
+        <item>Панама</item>
+        <item>Перу</item>
+        <item>Французька Полінезія</item>
+        <item>Папуа-Нова Ґвінея</item>
+        <item>Філіппіни</item>
+        <item>Пакистан</item>
+        <item>Польща</item>
+        <item>Сен-Пʼєр і Мікелон</item>
+        <item>Пуерто-Ріко</item>
+        <item>Палестинські території</item>
+        <item>Портуґалія</item>
+        <item>Палау</item>
+        <item>Параґвай</item>
+        <item>Катар</item>
+        <item>Реюньйон</item>
+        <item>Румунія</item>
+        <item>Сербія</item>
+        <item>Росія</item>
+        <item>Руанда</item>
+        <item>Саудівська Аравія</item>
+        <item>Соломонові Острови</item>
+        <item>Сейшельські Острови</item>
+        <item>Судан</item>
+        <item>Швеція</item>
+        <item>Сінгапур</item>
+        <item>Острів Святої Єлени</item>
+        <item>Словенія</item>
+        <item>Шпіцберген та Ян-Маєн</item>
+        <item>Словаччина</item>
+        <item>Сьєрра-Леоне</item>
+        <item>Сан-Маріно</item>
+        <item>Сенегал</item>
+        <item>Сомалі</item>
+        <item>Сурінам</item>
+        <item>Південний Судан</item>
+        <item>Сан-Томе і Прінсіпі</item>
+        <item>Сальвадор</item>
+        <item>Сінт-Мартен</item>
+        <item>Сирія</item>
+        <item>Есватіні</item>
+        <item>Острови Теркс і Кайкос</item>
+        <item>Чад</item>
+        <item>Того</item>
+        <item>Таїланд</item>
+        <item>Таджикистан</item>
+        <item>Токелау</item>
+        <item>Тімор-Лешті</item>
+        <item>Туркменістан</item>
+        <item>Туніс</item>
+        <item>Тонґа</item>
+        <item>Туреччина</item>
+        <item>Трінідад і Тобаґо</item>
+        <item>Тувалу</item>
+        <item>Тайвань</item>
+        <item>Танзанія</item>
+        <item>Україна</item>
+        <item>Уганда</item>
+        <item>Сполучені Штати</item>
+        <item>Уруґвай</item>
+        <item>Узбекистан</item>
+        <item>Ватикан</item>
+        <item>Сент-Вінсент і Ґренадіни</item>
+        <item>Венесуела</item>
+        <item>Британські Віргінські острови</item>
+        <item>Віргінські острови, США</item>
+        <item>Вʼєтнам</item>
+        <item>Вануату</item>
+        <item>Уолліс і Футуна</item>
+        <item>Самоа</item>
+        <item>Косово</item>
+        <item>Ємен</item>
+        <item>Майотта</item>
+        <item>Південно-Африканська Республіка</item>
+        <item>Замбія</item>
+        <item>Зімбабве</item>
+    </string-array>
+</resources>

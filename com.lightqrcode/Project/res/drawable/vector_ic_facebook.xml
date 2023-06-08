@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="32.0" android:viewportHeight="32.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$vector_ic_facebook__0" android:pathData="M10,2L22,2A8,8 0,0 1,30 10L30,22A8,8 0,0 1,22 30L10,30A8,8 0,0 1,2 22L2,10A8,8 0,0 1,10 2z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffffff" android:pathData="M18.3992,13.3333L22,13.3333L22,10L18.2256,10C15.1107,10 13.5922,12.8 13.5922,15.55L13.5922,16.6667L10,16.6667L10,19.8917L13.6009,20L13.6009,30L17.2017,30L17.2017,20L22,19.8917L22,16.6667L17.2017,16.6667L17.2017,14.4416C17.2017,13.7833 17.9567,13.3333 18.3992,13.3333Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

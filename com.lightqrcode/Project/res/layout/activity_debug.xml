@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_back" android:background="?actionBarItemBackground" android:layout_width="?actionBarSize" android:layout_height="?actionBarSize" android:scaleType="center" android:onClick="finishDebugActivity" app:srcCompat="@drawable/ic_arrow_back_black" />
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff031c36" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:background="?selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Debug" />
+        <CheckBox android:textStyle="bold" android:layout_gravity="end" android:id="@id/cb_debug" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="" android:layoutDirection="rtl" android:layout_marginStart="20.0dip" />
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:background="#ffe8e9ec" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff031c36" android:id="@id/view_debug_ui" android:background="?selectableItemBackground" android:paddingTop="18.0dip" android:paddingBottom="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Debug UI" android:onClick="startDebugUI" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+            <View android:background="#ffe8e9ec" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff031c36" android:id="@id/view_debug_ad" android:background="?selectableItemBackground" android:paddingTop="18.0dip" android:paddingBottom="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Debug AD" android:onClick="startDebugAD" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+            <View android:background="#ffe8e9ec" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff031c36" android:id="@id/view_debug_remote" android:background="?selectableItemBackground" android:paddingTop="18.0dip" android:paddingBottom="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Debug Remote Config" android:onClick="startDebugRemoteConfig" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+            <View android:background="#ffe8e9ec" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff031c36" android:id="@id/tv_set_language" android:background="?selectableItemBackground" android:paddingTop="18.0dip" android:paddingBottom="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Cancel Purchase" android:onClick="cancelPurchase" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+            <View android:background="#ffe8e9ec" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="#ff031c36" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_18" android:layout_marginBottom="@dimen/dp_18" android:text="config_country:" />
+                <EditText android:gravity="center" android:id="@id/et_country" android:background="@drawable/shape_bg_d7deee_dp2" android:layout_width="@dimen/dp_100" android:layout_height="@dimen/dp_30" android:text="" android:layout_marginStart="@dimen/dp_10" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

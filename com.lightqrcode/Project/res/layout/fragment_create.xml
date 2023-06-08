@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_top_bar" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="20.0sp" android:textColor="#ff031c36" android:gravity="start|center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/tab_create_toolbar" android:layout_weight="1.0" android:fontFamily="@string/roboto_medium" android:layout_marginStart="16.0dip" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_delete" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="?actionBarSize" android:layout_height="fill_parent" android:scaleType="center" app:srcCompat="@drawable/vector_ic_delete" />
+    </LinearLayout>
+    <View android:id="@id/view_divider" android:background="@drawable/shape_divider_bottom" android:layout_width="fill_parent" android:layout_height="2.0dip" android:alpha="0.2" app:layout_constraintTop_toBottomOf="@id/ll_top_bar" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rcv_creat" android:background="#fff5f6fa" android:paddingBottom="20.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/dp_48" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/view_divider" />
+</androidx.constraintlayout.widget.ConstraintLayout>

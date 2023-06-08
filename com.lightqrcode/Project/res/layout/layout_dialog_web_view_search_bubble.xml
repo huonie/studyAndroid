@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:background="@drawable/lib_result_web_view_bubble_bg" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="268:100" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_percent="0.75">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp_16" android:textColor="@color/dialog_text_first" android:gravity="center" android:padding="@dimen/dp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/different_engine_more_info" app:layout_constraintTop_toTopOf="parent" style="@style/FontBold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

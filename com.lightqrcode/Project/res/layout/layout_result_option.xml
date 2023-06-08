@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_result_option" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Space android:id="@id/space_top" android:layout_width="wrap_content" android:layout_height="20.0dip" />
+    <androidx.cardview.widget.CardView android:id="@id/cv_result_option_1" android:layout_width="0.0dip" android:layout_height="wrap_content" app:cardBackgroundColor="#ff0571e9" app:cardCornerRadius="6.0dip" app:cardElevation="2.0dip" app:layout_constraintEnd_toStartOf="@id/cv_result_option_2" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/space_top" app:layout_constraintWidth_percent="0.41">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_result_option_1" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_horizontal" android:id="@id/iv_result_option_1" android:layout_width="@dimen/dp_32" android:layout_height="@dimen/dp_32" android:layout_marginTop="12.0dip" app:srcCompat="@drawable/vector_ic_result_wifi" />
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_result_option_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:lines="2" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@id/cv_result_option_2" android:layout_width="0.0dip" android:layout_height="wrap_content" app:cardBackgroundColor="#ff0571e9" app:cardCornerRadius="6.0dip" app:cardElevation="2.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/cv_result_option_1" app:layout_constraintTop_toTopOf="@id/cv_result_option_1" app:layout_constraintWidth_percent="0.41">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_result_option_2" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_horizontal" android:id="@id/iv_result_option_2" android:layout_width="@dimen/dp_32" android:layout_height="@dimen/dp_32" android:layout_marginTop="12.0dip" app:srcCompat="@drawable/vector_ic_result_wifi" />
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_result_option_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:lines="2" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@id/cv_result_option_3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" app:cardBackgroundColor="#ff0571e9" app:cardCornerRadius="6.0dip" app:cardElevation="2.0dip" app:layout_constraintStart_toStartOf="@id/cv_result_option_1" app:layout_constraintTop_toBottomOf="@id/cv_result_option_1" app:layout_constraintWidth_percent="0.41">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_result_option_3" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_horizontal" android:id="@id/iv_result_option_3" android:layout_width="@dimen/dp_32" android:layout_height="@dimen/dp_32" android:layout_marginTop="12.0dip" app:srcCompat="@drawable/vector_ic_result_wifi" />
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_result_option_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:lines="2" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@id/cv_result_option_4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" app:cardBackgroundColor="#ff0571e9" app:cardCornerRadius="6.0dip" app:cardElevation="2.0dip" app:layout_constraintStart_toStartOf="@id/cv_result_option_2" app:layout_constraintTop_toBottomOf="@id/cv_result_option_1" app:layout_constraintWidth_percent="0.41">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_result_option_4" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_horizontal" android:id="@id/iv_result_option_4" android:layout_width="@dimen/dp_32" android:layout_height="@dimen/dp_32" android:layout_marginTop="12.0dip" app:srcCompat="@drawable/vector_ic_result_wifi" />
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_result_option_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:lines="2" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <Space android:id="@id/space_bottom" android:layout_width="wrap_content" android:layout_height="20.0dip" app:layout_constraintTop_toBottomOf="@id/cv_result_option_3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

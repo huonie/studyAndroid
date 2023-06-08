@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="country_names">
+        <item>असेंशन द्वीप</item>
+        <item>एंडोरा</item>
+        <item>संयुक्त अरब अमीरात</item>
+        <item>अफ़गानिस्तान</item>
+        <item>एंटिगुआ और बरबुडा</item>
+        <item>एंग्विला</item>
+        <item>अल्बानिया</item>
+        <item>आर्मेनिया</item>
+        <item>अंगोला</item>
+        <item>अर्जेंटीना</item>
+        <item>अमेरिकी समोआ</item>
+        <item>ऑस्ट्रिया</item>
+        <item>ऑस्ट्रेलिया</item>
+        <item>अरूबा</item>
+        <item>एलैंड द्वीपसमूह</item>
+        <item>अज़रबैजान</item>
+        <item>बोस्निया और हर्ज़ेगोविना</item>
+        <item>बारबाडोस</item>
+        <item>बांग्लादेश</item>
+        <item>बेल्जियम</item>
+        <item>बुर्किना फ़ासो</item>
+        <item>बुल्गारिया</item>
+        <item>बहरीन</item>
+        <item>बुरुंडी</item>
+        <item>बेनिन</item>
+        <item>सेंट बार्थेलेमी</item>
+        <item>बरमूडा</item>
+        <item>ब्रूनेई</item>
+        <item>बोलीविया</item>
+        <item>कैरिबियन नीदरलैंड</item>
+        <item>ब्राज़ील</item>
+        <item>बहामास</item>
+        <item>भूटान</item>
+        <item>बोत्स्वाना</item>
+        <item>बेलारूस</item>
+        <item>बेलीज़</item>
+        <item>कनाडा</item>
+        <item>कोकोस (कीलिंग) द्वीपसमूह</item>
+        <item>कांगो - किंशासा</item>
+        <item>मध्य अफ़्रीकी गणराज्य</item>
+        <item>कांगो – ब्राज़ाविल</item>
+        <item>स्विट्ज़रलैंड</item>
+        <item>कोट डी आइवर</item>
+        <item>कुक द्वीपसमूह</item>
+        <item>चिली</item>
+        <item>कैमरून</item>
+        <item>चीन</item>
+        <item>कोलंबिया</item>
+        <item>कोस्टारिका</item>
+        <item>क्यूबा</item>
+        <item>केप वर्ड</item>
+        <item>क्यूरासाओ</item>
+        <item>क्रिसमस द्वीप</item>
+        <item>साइप्रस</item>
+        <item>चेकिया</item>
+        <item>जर्मनी</item>
+        <item>जिबूती</item>
+        <item>डेनमार्क</item>
+        <item>डोमिनिका</item>
+        <item>डोमिनिकन गणराज्य</item>
+        <item>अल्जीरिया</item>
+        <item>इक्वाडोर</item>
+        <item>एस्टोनिया</item>
+        <item>मिस्र</item>
+        <item>इरिट्रिया</item>
+        <item>स्पेन</item>
+        <item>इथियोपिया</item>
+        <item>फ़िनलैंड</item>
+        <item>फ़िजी</item>
+        <item>फ़ॉकलैंड द्वीपसमूह</item>
+        <item>माइक्रोनेशिया</item>
+        <item>फ़ेरो द्वीपसमूह</item>
+        <item>फ़्रांस</item>
+        <item>गैबॉन</item>
+        <item>यूनाइटेड किंगडम</item>
+        <item>ग्रेनाडा</item>
+        <item>जॉर्जिया</item>
+        <item>फ़्रेंच गुयाना</item>
+        <item>गर्नसी</item>
+        <item>घाना</item>
+        <item>जिब्राल्टर</item>
+        <item>ग्रीनलैंड</item>
+        <item>गाम्बिया</item>
+        <item>गिनी</item>
+        <item>ग्वाडेलूप</item>
+        <item>इक्वेटोरियल गिनी</item>
+        <item>यूनान</item>
+        <item>ग्वाटेमाला</item>
+        <item>गुआम</item>
+        <item>गिनी-बिसाउ</item>
+        <item>गुयाना</item>
+        <item>हाँग काँग (चीन विशेष प्रशासनिक क्षेत्र)</item>
+        <item>होंडूरास</item>
+        <item>क्रोएशिया</item>
+        <item>हैती</item>
+        <item>हंगरी</item>
+        <item>इंडोनेशिया</item>
+        <item>आयरलैंड</item>
+        <item>इज़राइल</item>
+        <item>आइल ऑफ़ मैन</item>
+        <item>भारत</item>
+        <item>ब्रिटिश हिंद महासागरीय क्षेत्र</item>
+        <item>इराक</item>
+        <item>ईरान</item>
+        <item>आइसलैंड</item>
+        <item>इटली</item>
+        <item>जर्सी</item>
+        <item>जमैका</item>
+        <item>जॉर्डन</item>
+        <item>जापान</item>
+        <item>केन्या</item>
+        <item>किर्गिज़स्तान</item>
+        <item>कंबोडिया</item>
+        <item>किरिबाती</item>
+        <item>कोमोरोस</item>
+        <item>सेंट किट्स और नेविस</item>
+        <item>उत्तर कोरिया</item>
+        <item>दक्षिण कोरिया</item>
+        <item>कुवैत</item>
+        <item>कैमेन द्वीपसमूह</item>
+        <item>कज़ाखस्तान</item>
+        <item>लाओस</item>
+        <item>लेबनान</item>
+        <item>सेंट लूसिया</item>
+        <item>लिचेंस्टीन</item>
+        <item>श्रीलंका</item>
+        <item>लाइबेरिया</item>
+        <item>लेसोथो</item>
+        <item>लिथुआनिया</item>
+        <item>लग्ज़मबर्ग</item>
+        <item>लातविया</item>
+        <item>लीबिया</item>
+        <item>मोरक्को</item>
+        <item>मोनाको</item>
+        <item>मॉल्डोवा</item>
+        <item>मोंटेनेग्रो</item>
+        <item>सेंट मार्टिन</item>
+        <item>मेडागास्कर</item>
+        <item>मार्शल द्वीपसमूह</item>
+        <item>मकदूनिया</item>
+        <item>माली</item>
+        <item>म्यांमार (बर्मा)</item>
+        <item>मंगोलिया</item>
+        <item>मकाऊ (विशेष प्रशासनिक क्षेत्र चीन)</item>
+        <item>उत्तरी मारियाना द्वीपसमूह</item>
+        <item>मार्टीनिक</item>
+        <item>मॉरिटानिया</item>
+        <item>मोंटसेरात</item>
+        <item>माल्टा</item>
+        <item>मॉरीशस</item>
+        <item>मालदीव</item>
+        <item>मलावी</item>
+        <item>मैक्सिको</item>
+        <item>मलेशिया</item>
+        <item>मोज़ांबिक</item>
+        <item>नामीबिया</item>
+        <item>न्यू कैलेडोनिया</item>
+        <item>नाइजर</item>
+        <item>नॉरफ़ॉक द्वीप</item>
+        <item>नाइजीरिया</item>
+        <item>निकारागुआ</item>
+        <item>नीदरलैंड</item>
+        <item>नॉर्वे</item>
+        <item>नेपाल</item>
+        <item>नाउरु</item>
+        <item>नीयू</item>
+        <item>न्यूज़ीलैंड</item>
+        <item>ओमान</item>
+        <item>पनामा</item>
+        <item>पेरू</item>
+        <item>फ़्रेंच पोलिनेशिया</item>
+        <item>पापुआ न्यू गिनी</item>
+        <item>फ़िलिपींस</item>
+        <item>पाकिस्तान</item>
+        <item>पोलैंड</item>
+        <item>सेंट पिएरे और मिक्वेलान</item>
+        <item>पोर्टो रिको</item>
+        <item>फ़िलिस्तीनी क्षेत्र</item>
+        <item>पुर्तगाल</item>
+        <item>पलाऊ</item>
+        <item>पराग्वे</item>
+        <item>क़तर</item>
+        <item>रियूनियन</item>
+        <item>रोमानिया</item>
+        <item>सर्बिया</item>
+        <item>रूस</item>
+        <item>रवांडा</item>
+        <item>सऊदी अरब</item>
+        <item>सोलोमन द्वीपसमूह</item>
+        <item>सेशेल्स</item>
+        <item>सूडान</item>
+        <item>स्वीडन</item>
+        <item>सिंगापुर</item>
+        <item>सेंट हेलेना</item>
+        <item>स्लोवेनिया</item>
+        <item>स्वालबार्ड और जान मायेन</item>
+        <item>स्लोवाकिया</item>
+        <item>सिएरा लियोन</item>
+        <item>सैन मेरीनो</item>
+        <item>सेनेगल</item>
+        <item>सोमालिया</item>
+        <item>सूरीनाम</item>
+        <item>दक्षिण सूडान</item>
+        <item>साओ टोम और प्रिंसिपे</item>
+        <item>अल सल्वाडोर</item>
+        <item>सिंट मार्टिन</item>
+        <item>सीरिया</item>
+        <item>स्वाज़ीलैंड</item>
+        <item>तुर्क और कैकोज़ द्वीपसमूह</item>
+        <item>चाड</item>
+        <item>टोगो</item>
+        <item>थाईलैंड</item>
+        <item>ताज़िकिस्तान</item>
+        <item>तोकेलाउ</item>
+        <item>तिमोर-लेस्त</item>
+        <item>तुर्कमेनिस्तान</item>
+        <item>ट्यूनीशिया</item>
+        <item>टोंगा</item>
+        <item>तुर्की</item>
+        <item>त्रिनिदाद और टोबैगो</item>
+        <item>तुवालू</item>
+        <item>ताइवान</item>
+        <item>तंज़ानिया</item>
+        <item>यूक्रेन</item>
+        <item>युगांडा</item>
+        <item>संयुक्त राज्य</item>
+        <item>उरूग्वे</item>
+        <item>उज़्बेकिस्तान</item>
+        <item>वेटिकन सिटी</item>
+        <item>सेंट विंसेंट और ग्रेनाडाइंस</item>
+        <item>वेनेज़ुएला</item>
+        <item>ब्रिटिश वर्जिन द्वीपसमूह</item>
+        <item>यू॰एस॰ वर्जिन द्वीपसमूह</item>
+        <item>वियतनाम</item>
+        <item>वनुआतू</item>
+        <item>वालिस और फ़्यूचूना</item>
+        <item>समोआ</item>
+        <item>कोसोवो</item>
+        <item>यमन</item>
+        <item>मायोते</item>
+        <item>दक्षिण अफ़्रीका</item>
+        <item>ज़ाम्बिया</item>
+        <item>ज़िम्बाब्वे</item>
+    </string-array>
+</resources>
